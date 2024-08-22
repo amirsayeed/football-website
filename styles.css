@@ -60,7 +60,7 @@ nav li a {
 
 
 main {
-    background: whitesmoke;
+    background: white;
 }
 
 .player-card-container {
@@ -80,5 +80,46 @@ main {
 }
 
 .player-info {
-    border: 15px solid #FFFFFF;
+    border: 15px solid whitesmoke;
+}
+
+.about-highlights {
+    display: flex;
+    margin: 150px 150px 0 150px;
+}
+
+.copa-highlights {
+    padding: 50px;
+}
+
+.about-highlights img {
+    width: 550px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    padding-top: 100px;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 480px;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 32px;
+}
+
+footer p {
+    padding: 25px;
+    text-align: center;
 }
